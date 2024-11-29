@@ -1,22 +1,10 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.svg);
+    background: url(basemod.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
-}
-
-.xbox.white {
-    background: url(xbox-assets/base-white.svg);
-}
-
-.xbox.disconnected {
-    background: url(xbox-assets/disconnected.svg);
-}
-
-.xbox.disconnected div {
-    display: none;
 }
 
 .xbox .triggers {
@@ -29,7 +17,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svg);
+    background: url(all_triggers.png);
     opacity: 0;
 }
 
@@ -74,7 +62,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svg);
+    background: url();
     height: 45px;
     width: 45px;
     top: 258px;
@@ -185,7 +173,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(xbox-assets/stick.svg);
+    background: url(stickmod.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
