@@ -34,7 +34,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svg);
+    background: url(single_bumper.png);
     opacity: 0;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svg);
+    background: url(startmod.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -128,7 +128,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svg);
+    background: url(ABXYmod.png);
     width: 48px;
     height: 48px;
 }
@@ -202,7 +202,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svg);
+    background: url(dpad.svg);
     position: absolute;
     opacity: 0;
 }
